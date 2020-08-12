@@ -13,6 +13,7 @@
 		C148DE3624E3C74B0053910A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C148DE3424E3C74B0053910A /* Main.storyboard */; };
 		C148DE3824E3C7500053910A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C148DE3724E3C7500053910A /* Assets.xcassets */; };
 		C148DE3B24E3C7500053910A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C148DE3924E3C7500053910A /* LaunchScreen.storyboard */; };
+		C148DE4324E3C7CD0053910A /* RetainCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C148DE4224E3C7CD0053910A /* RetainCycleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C148DE3724E3C7500053910A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C148DE3A24E3C7500053910A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C148DE3C24E3C7500053910A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C148DE4224E3C7CD0053910A /* RetainCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCycleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C148DE2E24E3C74B0053910A /* AppDelegate.swift */,
 				C148DE3024E3C74B0053910A /* SceneDelegate.swift */,
 				C148DE3224E3C74B0053910A /* ViewController.swift */,
+				C148DE4224E3C7CD0053910A /* RetainCycleViewController.swift */,
 				C148DE3424E3C74B0053910A /* Main.storyboard */,
 				C148DE3724E3C7500053910A /* Assets.xcassets */,
 				C148DE3924E3C7500053910A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C148DE4324E3C7CD0053910A /* RetainCycleViewController.swift in Sources */,
 				C148DE3324E3C74B0053910A /* ViewController.swift in Sources */,
 				C148DE2F24E3C74B0053910A /* AppDelegate.swift in Sources */,
 				C148DE3124E3C74B0053910A /* SceneDelegate.swift in Sources */,
